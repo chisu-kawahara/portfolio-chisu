@@ -6,7 +6,7 @@
             name="viewport"
             content="width=device-width, initial-scale=1.0"
         />
-        <title>Chisu Kawahara | iOS & Web Developer</title>
+        <title>Chisu Kawahara</title>
         <link
             rel="stylesheet"
             href="styles.css"
@@ -38,45 +38,42 @@
                 <ul class="nav-links">
                     <li><a href="#about">ABOUT</a></li>
                     <li><a href="#projects">PROJECTS</a></li>
-                    <li><a href="#skills">SKILLS</a></li>
                     <li><a href="#contact">CONTACT</a></li>
                 </ul>
             </div>
         </nav>
         <!-- Hero -->
-        <section
-            id="about"
-            class="hero"
-        >
+        <section id="about" class="hero">
             <div class="hero-text">
                 <h1>
-                    I’m <span>Chisu</span>,<br />
+                    I’m <span>Chisu</span>, <br />
                     iOS & Web developer.
                 </h1>
                 <p>
                     I build iOS and web applications with a focus on clean
                     design and user-friendly experiences.
                 </p>
-                <a
-                    href="#projects"
-                    class="hero-btn"
-                    >View My Work</a
-                >
-            </div>
 
-            <div class="hero-image">
-                <img
-                    src="images/profile.png"
-                    alt="Profile photo"
-                />
-            </div>
+        <!-- Skills -->
+            <section id="skills" class="container">
+                <ul class="skills">
+                    <li>HTML / CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>SQL</li>
+                    <li>Node.js</li>
+                    <li>Swift</li>
+                    <li>UIKit / SwiftUI</li>
+                    <li>Node.js / Express</li>
+                    <li>Git / GitHub</li>
+                </ul>
+            </section>
+
+
         </section>
 
         <!-- Projects -->
-        <section
-            id="projects"
-            class="container"
-        >
+        <section id="projects" class="container">
             <h2>Projects</h2>
 
             <div class="project">
@@ -99,7 +96,7 @@
                             <p class="tech">Tech: HTML, CSS, JavaScript</p>
                             <div class="links">
                                 <a
-                                    href="#"
+                                    href="https://chisu-kawahara.github.io/password-generator-app/"
                                     target="_blank"
                                     >Live Demo</a
                                 >
@@ -128,7 +125,7 @@
                             <p class="tech">Tech: HTML, CSS, JavaScript, React, API</p>
                             <div class="links">
                                 <a
-                                    href="#"
+                                    href="https://chisu-kawahara.github.io/chef-claude/"
                                     target="_blank"
                                     >Live Demo</a
                                 >
@@ -147,13 +144,13 @@
                         </div>
                         <div class="project-text">
                             <h3>Tweeter Web App</h3>
-                        <p>
-                            Tweeter App is a single-page web application that allows
-                            users to compose short tweets (under 140 characters) and
-                            view tweets posted by others. It mimics core Twitter
-                            functionality, focusing on front-end development skills
-                            and asynchronous requests using AJAX.
-                        </p>
+                            <p>
+                                Tweeter App is a single-page web application that allows
+                                users to compose short tweets (under 140 characters) and
+                                view tweets posted by others. It mimics core Twitter
+                                functionality, focusing on front-end development skills
+                                and asynchronous requests using AJAX.
+                            </p>
                         <p class="tech">
                             Tech: HTML, CSS, JavaScript, AJAX, JQuery, Sass
                         </p>
@@ -172,83 +169,56 @@
                     <div class="project-content">
                         <div class="project-image">
                             <img
-                                src="images/quiz-app.png"
+                                src="images/tiny-app.png"
                                 alt="Chef-claude Screenshot"
                             />
                         </div>
                         <div class="project-text">
-                            <h3>Quiz App</h3>
+                            <h3>TinyApp</h3>
                             <p>
-                                A web application that allows users to create quizzes,
-                                attempt them, and view results on a separate results
-                                page.
+                                TinyApp is a full-stack web application built with Node.js and 
+                                Express that allows users to shorten long URLs. Registered users 
+                                can create, edit, and delete their own short URLs. The app also 
+                                includes user authentication and access control to ensure that 
+                                only the owner of a URL can modify or delete it.
                             </p>
-                        <p class="tech">
-                            Tech: JavaScript, Node.js, Express, PostgreSQL
-                        </p>
+                            <p class="tech">
+                                Tech: JavaScript, Node.js, Express, EJS
+                            </p>
                             <div class="links">
-                                <a
-                                    href="#"
-                                    target="_blank"
-                                    >Live Demo</a
-                                >
+                                <a href="https://tinyapp-4zby.onrender.com/" target="_blank" rel="noopener noreferrer">Live Demo</a>
                             </div>
                         </div>
                     </div>
                 </div>
+            
+            </div>
 
         </section>
 
-        <!-- Skills -->
-        <section
-            id="skills"
-            class="container"
-        >
-            <h2>Skills</h2>
-            <ul class="skills">
-                <li>HTML / CSS</li>
-                <li>JavaScript</li>
-                <li>React</li>
-                <li>SQL</li>
-                <li>Swift</li>
-                <li>UIKit / SwiftUI</li>
-                <li>Node.js / Express</li>
-                <li>Git / GitHub</li>
-            </ul>
-        </section>
 
         <!-- Contact -->
-        <section
-            id="contact"
-            class="container"
-        >
+        <section id="contact" class="container">
             <h2>Contact</h2>
-            <div class="contact-icons">
-                <a
-                    href="mailto:chisu.kawahara@gmail.com"
-                    class="contact-icon"
-                    title="Email"
-                >
-                    <i class="fas fa-envelope"></i>
+
+            <div class="contact-list">
+                <a href="mailto:chisu.kawahara@gmail.com" class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <span>chisu.kawahara@gmail.com</span>
                 </a>
-                <a
-                    href="#"
-                    target="_blank"
-                    class="contact-icon"
-                    title="LinkedIn"
-                >
-                    <i class="fab fa-linkedin"></i>
+
+                <a href="https://www.linkedin.com/in/chisu-kawahara" target="_blank" class="contact-item">
+                <i class="fab fa-linkedin"></i>
+                <span>www.linkedin.com/in/chisu-kawahara</span>
                 </a>
-                <a
-                    href="#"
-                    target="_blank"
-                    class="contact-icon"
-                    title="GitHub"
-                >
-                    <i class="fab fa-github"></i>
+
+                <a href="https://github.com/chisu-kawahara" target="_blank" class="contact-item">
+                <i class="fab fa-github"></i>
+                <span>https://github.com/chisu-kawahara</span>
                 </a>
             </div>
         </section>
+
 
         <footer>
             <p>© 2026 Chisu Kawahara</p>
