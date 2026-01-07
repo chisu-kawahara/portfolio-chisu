@@ -7,86 +7,157 @@
             content="width=device-width, initial-scale=1.0"
         />
         <title>Chisu Kawahara | iOS & Web Developer</title>
-        <link rel="stylesheet" href="styles.css"/>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+        <link
+            rel="stylesheet"
+            href="styles.css"
+        />
+        <link
+            rel="preconnect"
+            href="https://fonts.googleapis.com"
+        />
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+            rel="stylesheet"
+        />
     </head>
 
     <body>
         <!-- Nav bar -->
-        
+
         <nav class="navbar">
             <div class="nav-container">
                 <ul class="nav-links">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
                 </ul>
             </div>
         </nav>
         <!-- Hero -->
-        <section id="home" class="hero">
-        <div class="hero-text">
-            <h1>
-            I’m <span>Chisu</span>,<br />
-            a junior iOS & Web developer.
-            </h1>
-            <p>
-            I build iOS and web applications with a focus on clean design
-            and user-friendly experiences.
-            </p>
-            <a href="#projects" class="hero-btn">View My Work</a>
-        </div>
+        <section
+            id="about"
+            class="hero"
+        >
+            <div class="hero-text">
+                <h1>
+                    I’m <span>Chisu</span>,<br />
+                    iOS & Web developer.
+                </h1>
+                <p>
+                    I build iOS and web applications with a focus on clean
+                    design and user-friendly experiences.
+                </p>
+                <a
+                    href="#projects"
+                    class="hero-btn"
+                    >View My Work</a
+                >
+            </div>
 
-        <div class="hero-image">
-            <img src="images/profile.png" alt="Profile photo" />
-        </div>
-        </section>
-
-
-        <!-- Projects -->
-        <section id="projects" class="container">
-            <h2>Projects</h2>
-
-            <div class="project">
-
-                <div class="project-card">
-                    <h3>Quiz App</h3>
-                        <p>
-                            A web application that allows users to create quizzes,
-                            attempt them, and view results on a separate results page.
-                        </p>
-                        <p class="tech">
-                            Tech: JavaScript, Node.js, Express, PostgreSQL
-                        </p>
-                        <div class="links">
-                            <a href="#" target="_blank">GitHub</a>
-                            <a href="#" target="_blank">Live Demo</a>
-                        </div>
-                </div>
-
-                <div class="project-card">
-                    <h3>Interactive Image Map</h3>
-                        <p>
-                            Responsive HTML image map with clickable hotspots, designed
-                            to work across desktop and mobile devices.
-                        </p>
-                        <p class="tech">
-                            Tech: HTML, CSS, JavaScript
-                        </p>
-                        <div class="links">
-                            <a href="#" target="_blank">GitHub</a>
-                            <a href="#" target="_blank">Live Demo</a>
-                        </div>
-                </div>
-
+            <div class="hero-image">
+                <img
+                    src="images/profile.png"
+                    alt="Profile photo"
+                />
             </div>
         </section>
 
+        <!-- Projects -->
+        <section
+            id="projects"
+            class="container"
+        >
+            <h2>Projects</h2>
+
+            <div class="project">
+                
+                <div class="project-card">
+                    <h3>Password Generator</h3>
+                    <p>
+                        Generate strong, secure passwords with a single click 
+                        and customize your experience for maximum security.
+                    </p>
+                    <p class="tech">Tech: HTML, CSS, JavaScript</p>
+                    <div class="links">
+                        <a
+                            href="#"
+                            target="_blank"
+                            >Live Demo</a
+                        >
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3>Chef Claude</h3>
+                    <p>
+                        Chef Claude is a simple React web app that takes 
+                        a list of ingredients from the user and generates a recipe 
+                        suggestion using Anthropic's Claude AI. The recipe is returned 
+                        in Markdown format, which can be rendered nicely on the webpage.
+                    </p>
+                    <p class="tech">Tech: HTML, CSS, JavaScript, React, API</p>
+                    <div class="links">
+                        <a
+                            href="#"
+                            target="_blank"
+                            >Live Demo</a
+                        >
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3>Tweeter Web App</h3>
+                    <p>
+                        Tweeter App is a single-page web application that allows users 
+                        to compose short tweets (under 140 characters) and view tweets 
+                        posted by others. It mimics core Twitter functionality, focusing 
+                        on front-end development skills and asynchronous requests using AJAX.
+                    </p>
+                    <p class="tech">Tech: HTML, CSS, JavaScript, AJAX, JQuery, Sass</p>
+                    <div class="links">
+                        <a
+                            href="#"
+                            target="_blank"
+                            >Live Demo</a
+                        >
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <h3>Quiz App</h3>
+                    <p>
+                        A web application that allows users to create quizzes,
+                        attempt them, and view results on a separate results
+                        page.
+                    </p>
+                    <p class="tech">
+                        Tech: JavaScript, Node.js, Express, PostgreSQL
+                    </p>
+                    <div class="links">
+                        <a
+                            href="#"
+                            target="_blank"
+                            >Live Demo</a
+                        >
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+
         <!-- Skills -->
-        <section id="skills" class="container">
+        <section
+            id="skills"
+            class="container"
+        >
             <h2>Skills</h2>
             <ul class="skills">
                 <li>Swift</li>
@@ -100,9 +171,17 @@
         </section>
 
         <!-- Contact -->
-        <section id="contact" class="container">
+        <section
+            id="contact"
+            class="container"
+        >
             <h2>Contact</h2>
-            <p>Email: <a href="mailto:chisu.kawahara@email.com">chisu.kawahara@gmail.com</a></p>
+            <p>
+                Email:
+                <a href="mailto:chisu.kawahara@email.com"
+                    >chisu.kawahara@gmail.com</a
+                >
+            </p>
             <p>
                 <a
                     href="#"
