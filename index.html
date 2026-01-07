@@ -24,6 +24,10 @@
             href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
             rel="stylesheet"
         />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        />
     </head>
 
     <body>
@@ -76,80 +80,122 @@
             <h2>Projects</h2>
 
             <div class="project">
-                
+
                 <div class="project-card">
-                    <h3>Password Generator</h3>
-                    <p>
-                        Generate strong, secure passwords with a single click 
-                        and customize your experience for maximum security.
-                    </p>
-                    <p class="tech">Tech: HTML, CSS, JavaScript</p>
-                    <div class="links">
-                        <a
-                            href="#"
-                            target="_blank"
-                            >Live Demo</a
-                        >
+                    <div class="project-content">
+                        <div class="project-image">
+                            <img
+                                src="images/password-generator.png"
+                                alt="Password Generator Screenshot"
+                            />
+                        </div>
+                        <div class="project-text">
+                            <h3>Password Generator</h3>
+                            <p>
+                                Generate strong, secure passwords with a single
+                                click and customize your experience for maximum
+                                security.
+                            </p>
+                            <p class="tech">Tech: HTML, CSS, JavaScript</p>
+                            <div class="links">
+                                <a
+                                    href="#"
+                                    target="_blank"
+                                    >Live Demo</a
+                                >
+                            </div>
+                        </div>
                     </div>
                 </div>
 
                 <div class="project-card">
-                    <h3>Chef Claude</h3>
-                    <p>
-                        Chef Claude is a simple React web app that takes 
-                        a list of ingredients from the user and generates a recipe 
-                        suggestion using Anthropic's Claude AI. The recipe is returned 
-                        in Markdown format, which can be rendered nicely on the webpage.
-                    </p>
-                    <p class="tech">Tech: HTML, CSS, JavaScript, React, API</p>
-                    <div class="links">
-                        <a
-                            href="#"
-                            target="_blank"
-                            >Live Demo</a
-                        >
+                    <div class="project-content">
+                        <div class="project-image">
+                            <img
+                                src="images/chef-claude.png"
+                                alt="Chef-claude Screenshot"
+                            />
+                        </div>
+                        <div class="project-text">
+                            <h3>Chef Claude</h3>
+                            <p>
+                                Chef Claude is a simple React web app that takes a list
+                                of ingredients from the user and generates a recipe
+                                suggestion using Anthropic's Claude AI. The recipe is
+                                returned in Markdown format, which can be rendered
+                                nicely on the webpage.
+                            </p>
+                            <p class="tech">Tech: HTML, CSS, JavaScript, React, API</p>
+                            <div class="links">
+                                <a
+                                    href="#"
+                                    target="_blank"
+                                    >Live Demo</a
+                                >
+                            </div>
+                        </div>
                     </div>
                 </div>
 
                 <div class="project-card">
-                    <h3>Tweeter Web App</h3>
-                    <p>
-                        Tweeter App is a single-page web application that allows users 
-                        to compose short tweets (under 140 characters) and view tweets 
-                        posted by others. It mimics core Twitter functionality, focusing 
-                        on front-end development skills and asynchronous requests using AJAX.
-                    </p>
-                    <p class="tech">Tech: HTML, CSS, JavaScript, AJAX, JQuery, Sass</p>
-                    <div class="links">
-                        <a
-                            href="#"
-                            target="_blank"
-                            >Live Demo</a
-                        >
+                    <div class="project-content">
+                        <div class="project-image">
+                            <img
+                                src="images/tweeter-app.png"
+                                alt="Chef-claude Screenshot"
+                            />
+                        </div>
+                        <div class="project-text">
+                            <h3>Tweeter Web App</h3>
+                        <p>
+                            Tweeter App is a single-page web application that allows
+                            users to compose short tweets (under 140 characters) and
+                            view tweets posted by others. It mimics core Twitter
+                            functionality, focusing on front-end development skills
+                            and asynchronous requests using AJAX.
+                        </p>
+                        <p class="tech">
+                            Tech: HTML, CSS, JavaScript, AJAX, JQuery, Sass
+                        </p>
+                            <div class="links">
+                                <a
+                                    href="#"
+                                    target="_blank"
+                                    >Live Demo</a
+                                >
+                            </div>
+                        </div>
                     </div>
                 </div>
-                
+
                 <div class="project-card">
-                    <h3>Quiz App</h3>
-                    <p>
-                        A web application that allows users to create quizzes,
-                        attempt them, and view results on a separate results
-                        page.
-                    </p>
-                    <p class="tech">
-                        Tech: JavaScript, Node.js, Express, PostgreSQL
-                    </p>
-                    <div class="links">
-                        <a
-                            href="#"
-                            target="_blank"
-                            >Live Demo</a
-                        >
+                    <div class="project-content">
+                        <div class="project-image">
+                            <img
+                                src="images/quiz-app.png"
+                                alt="Chef-claude Screenshot"
+                            />
+                        </div>
+                        <div class="project-text">
+                            <h3>Quiz App</h3>
+                            <p>
+                                A web application that allows users to create quizzes,
+                                attempt them, and view results on a separate results
+                                page.
+                            </p>
+                        <p class="tech">
+                            Tech: JavaScript, Node.js, Express, PostgreSQL
+                        </p>
+                            <div class="links">
+                                <a
+                                    href="#"
+                                    target="_blank"
+                                    >Live Demo</a
+                                >
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-
 
         </section>
 
@@ -177,25 +223,31 @@
             class="container"
         >
             <h2>Contact</h2>
-            <p>
-                Email:
-                <a href="mailto:chisu.kawahara@email.com"
-                    >chisu.kawahara@gmail.com</a
+            <div class="contact-icons">
+                <a
+                    href="mailto:chisu.kawahara@gmail.com"
+                    class="contact-icon"
+                    title="Email"
                 >
-            </p>
-            <p>
+                    <i class="fas fa-envelope"></i>
+                </a>
                 <a
                     href="#"
                     target="_blank"
-                    >LinkedIn</a
+                    class="contact-icon"
+                    title="LinkedIn"
                 >
-                ·
+                    <i class="fab fa-linkedin"></i>
+                </a>
                 <a
                     href="#"
                     target="_blank"
-                    >GitHub</a
+                    class="contact-icon"
+                    title="GitHub"
                 >
-            </p>
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
         </section>
 
         <footer>
