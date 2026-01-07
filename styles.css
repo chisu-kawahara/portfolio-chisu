@@ -89,7 +89,8 @@ body {
   font-size: 1.1rem;
   max-width: 500px;
   margin-bottom: 30px;
-  color: #8E857D;
+  color: #3A2F2A;
+  margin-top: 15px;
 }
 
 /* Skills */
@@ -243,20 +244,33 @@ body {
 
 /* Footer */
 footer {
+  display: flex;
   background-color: #C9BFB6;
-  text-align: center;
-  padding: 20px 0;
+  text-align: left;
+  padding: 20px 30px;
   color: #3A2F2A;
   font-size: 0.95rem;
   box-shadow: 0 -4px 10px rgba(58, 47, 42, 0.05);
   margin-top: 60px;
+  justify-content: space-between;
 }
 
 footer p {
   margin: 0;
 }
 
+.footer-home {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  color: #7A5E4F;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
 
+.footer-home:hover {
+  color: #D6A9A3;
+  transform: scale(1.2);
+}
 
 /* media for mobile */
 @media (max-width: 768px) {
