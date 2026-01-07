@@ -21,7 +21,7 @@ body {
 
 /* Navbar */
 .navbar {
-    position: sticky; /* keep nav bar to the top when scrolling page */
+    position: sticky; /* keep nav bar to the top when scrolling page - sticks where they are!! */
     top: 0;
     z-index: 1000; /* keep them in the front */
     background-color: #F6F3EF;
@@ -105,8 +105,8 @@ body {
 }
 
 .hero-text p {
-  font-size: 1.1rem;
-  max-width: 100%;
+  font-size: 0.9rem;
+  max-width: 650px;
   color: #3A2F2A;
   margin-top: 15px;
 }
@@ -190,8 +190,12 @@ body {
 .project-text {
   flex: 1; /* take remaining space */
   min-width: 280px; 
-}
+  font-size: 0.9rem;
 
+}
+.project-text p {
+  margin-top: 13px;
+}
 .project-image video {
   width: 280px;
   height: auto;
@@ -206,24 +210,6 @@ body {
   color: #8E857D;
   margin-top: 8px;
 }
-
-/* Links */
-.project-text .links a {
-  display: inline-block;
-  margin-top: 12px;
-  padding: 10px 20px;
-  background-color: #7A5E4F;
-  color: #fff;
-  border-radius: 8px;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-}
-
-.project-text .links a:hover {
-  background-color: #D6A9A3;
-}
-
-
 
 /* Contacts */
 #contact {
