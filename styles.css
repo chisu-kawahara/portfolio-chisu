@@ -63,7 +63,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 50px 50px;
-  max-width: 1100px;
+  width: 100%;
   margin: 0 auto;
   background-color: #C9BFB6;
   flex-wrap: wrap;
@@ -79,6 +79,25 @@ body {
   font-size: 3rem;
   line-height: 1.2;
   margin-bottom: 20px;
+}
+
+#name {
+  color: #7A5E4F;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+#name i {
+  color: #7A5E4F;
+  transition: transform 0.2s ease, color 0.2s ease;
+  font-size: 1rem;
+}
+
+#name:hover i {
+  transform: scale(1.2);
+  color: #D6A9A3;
 }
 
 .hero-text h1 span {
