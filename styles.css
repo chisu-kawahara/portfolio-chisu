@@ -106,8 +106,7 @@ body {
 
 .hero-text p {
   font-size: 1.1rem;
-  max-width: 500px;
-  margin-bottom: 30px;
+  max-width: 100%;
   color: #3A2F2A;
   margin-top: 15px;
 }
@@ -117,6 +116,7 @@ body {
 #skills {
   max-width: 900px;
   text-align: left;
+  margin-top: 30px;
 }
 
 .skills {
